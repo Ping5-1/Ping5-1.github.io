@@ -4,8 +4,6 @@
 
 [**🖥️在线预览（Vercel）**](https://Ping5-1.github.io)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 
-> README 版本：`2024-04-07`
-
 ## ✨ 功能特性
 
 - [x] 基于 Astro 和 Tailwind CSS 开发
