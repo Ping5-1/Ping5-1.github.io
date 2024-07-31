@@ -37,6 +37,8 @@ category: Front-end
 draft: false
 ---
 ```
+## ❀ 图标
+[点此查看图标编码](https://icones.js.org/)
 
 ## 🧞 指令
 

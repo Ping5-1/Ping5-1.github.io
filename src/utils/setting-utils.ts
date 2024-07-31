@@ -2,7 +2,7 @@ import {AUTO_MODE, DARK_MODE, DEFAULT_THEME, LIGHT_MODE} from "@constants/consta
 import type { LIGHT_DARK_MODE } from '@/types/config'
 
 export function getDefaultHue(): number {
-  const fallback = '250'
+  const fallback = '252'
   const configCarrier = document.getElementById('config-carrier')
   return parseInt(configCarrier?.dataset.hue || fallback)
 }
