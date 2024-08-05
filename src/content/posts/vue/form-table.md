@@ -8,7 +8,7 @@ category: '前端常见业务'
 draft: false 
 ---
 FormTable.vue
-```yaml
+```html
 <template>
   <table
     class="form-table td-center readOnly"
@@ -314,7 +314,7 @@ export default {
 ```
 
 FormTable.less
-```yaml
+```css
 /* 涉及到的外部变量(在@/assets/styles/variables.less中):
    @font-default, @font-danger
    @table-bg, @table-thead-color, @table-thead-bg, @table-border, @table-tr-odd, @table-tr-even, @tr-hover
@@ -493,7 +493,7 @@ FormTable.less
 ```
 
 demo.vue
-```yaml
+```html
 <template>
   <div class="layout-colsumn detail-panel">
     <div class="page-opera">

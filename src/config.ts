@@ -2,7 +2,7 @@
  * @Author: wyp
  * @objectDescription: 
  * @LastEditors: wyp
- * @LastEditTime: 2024-08-01 01:04:18
+ * @LastEditTime: 2024-08-05 14:34:14
  */
 import type {
   LicenseConfig,
@@ -22,7 +22,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: false,
-    src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/demo-banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/avatar.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'YiPing5',
   bio: '赤日几时过，清风无处寻。 经书聊枕籍，瓜李漫浮沉。',
   links: [

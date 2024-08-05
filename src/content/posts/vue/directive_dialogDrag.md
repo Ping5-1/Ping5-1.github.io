@@ -8,7 +8,7 @@ category: '前端常见业务'
 draft: false 
 ---
 directives.js:
-```yaml
+```js
 /**
  * v-dialogDrag 弹窗拖拽
  * @params operate {String} 拖拽项的data-drag-name   
@@ -90,8 +90,10 @@ export default {
   dialogDrag
 };
 ```
+
 使用：
-```yaml
+
+```html
  <div  v-dialogDrag="{ operate: operateUUid, move: true,draggable:draggable}">
     <div :data-drag-name="operateUUid" />
  </div>

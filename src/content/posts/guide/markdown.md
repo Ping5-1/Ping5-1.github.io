@@ -2,9 +2,9 @@
 title: Markdown Example
 published: 2023-10-01
 description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging, Demo]
+tags: [Markdown]
 category: Examples
-draft: false
+draft: true
 ---
 
 # An h1 header
@@ -56,6 +56,7 @@ define foobar() {
 
 (which makes copying & pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:
+[bash|shell|python|java|c|cpp|css|html|js|javascript|json|markdown|ruby|php|sql|xml|yaml]
 
 ```python
 import time
@@ -181,6 +182,7 @@ Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
 ## Admonitions
 
 Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+![alt text](image.png)
 
 :::note
 Highlights information that users should take into account, even when skimming.
@@ -237,7 +239,7 @@ This is a note with a custom title.
 
 ## video
 
-```yaml
+```html
 <iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 ```
 
