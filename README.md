@@ -1,17 +1,15 @@
-# 🍥
+# 说明
 
-A static blog template built with [Astro](https://astro.build).
+本项目基于[Astro](https://astro.build)搭建，搭建详情见[博客](https://github.com/saicaca/fuwari/generate)
 
-## 🚀 How to Use
+## 运行
 
-1. [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-2. To edit your blog locally, clone your repository, run `pnpm install` AND `pnpm add sharp` to install dependencies.
-   - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
+1. 安装依赖：`pnpm install`、 `pnpm add sharp`
+   - 如未安装pnpm请先安装[pnpm](https://pnpm.io) `npm install -g pnpm`
+2. `pnpm dev`
+3. 注：node参考版本`18.17.0`
 
-## ⚙️ Frontmatter of Posts
+## 博客头部
 
 ```yaml
 ---
@@ -25,19 +23,19 @@ draft: false
 ---
 ```
 
-## ❀ icon
-[Visit  for icon codes](https://icones.js.org/)
+## 图标
+[icones](https://icones.js.org/)
 
-## 🧞 Commands
+## 脚本指令
 
-All commands are run from the root of the project, from a terminal:
+下列指令均需要在项目根目录执行：
 
-| Command                             | Action                                           |
-|:------------------------------------|:-------------------------------------------------|
-| `pnpm install` AND `pnpm add sharp` | Installs dependencies                            |
-| `pnpm dev`                          | Starts local dev server at `localhost:4321`      |
-| `pnpm build`                        | Build your production site to `./dist/`          |
-| `pnpm preview`                      | Preview your build locally, before deploying     |
-| `pnpm new-post <filename>`          | Create a new post                                |
-| `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro --help`                 | Get help using the Astro CLI                     |
+| Command                            | Action                                 |
+| :--------------------------------- | :------------------------------------- |
+| `pnpm install` 并 `pnpm add sharp` | 安装依赖                               |
+| `pnpm dev`                         | 在 `localhost:4321` 启动本地开发服务器 |
+| `pnpm build`                       | 构建网站至 `./dist/`                   |
+| `pnpm preview`                     | 本地预览已构建的网站                   |
+| `pnpm new-post <filename>`         | 创建新文章                             |
+| `pnpm astro ...`                   | 执行 `astro add`, `astro check` 等指令 |
+| `pnpm astro --help`                | 显示 Astro CLI 帮助                    |

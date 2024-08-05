@@ -3,7 +3,7 @@ title: 地图工具类：多边形
 published: 2024-04-30
 description: '基于openlayers的多边形，多用于绘制网格区域'
 image: ''
-tags: [js]
+tags: [openlayers,js]
 category: '前端常见业务'
 draft: false 
 ---

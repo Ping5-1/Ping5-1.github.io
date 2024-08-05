@@ -3,7 +3,7 @@ title: 地图工具类：点位
 published: 2024-04-30
 description: '基于openlayers的点位，包括聚合点、高亮'
 image: ''
-tags: [js]
+tags: [openlayers,js]
 category: '前端常见业务'
 draft: false 
 ---
