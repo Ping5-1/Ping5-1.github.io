@@ -1,11 +1,11 @@
 ---
-import '@fontsource-variable/jetbrains-mono';
-import '@fontsource-variable/jetbrains-mono/wght-italic.css';
+import '@fontsource-variable/jetbrains-mono'
+import '@fontsource-variable/jetbrains-mono/wght-italic.css'
 
 interface Props {
-    class: string;
+  class: string
 }
-const className = Astro.props.class;
+const className = Astro.props.class
 ---
 <div data-pagefind-body class=`prose dark:prose-invert prose-base max-w-none custom-md ${className}`>
     <!--<div class="prose dark:prose-invert max-w-none custom-md">-->
@@ -483,7 +483,7 @@ const className = Astro.props.class;
 
     @layer components {
         .custom-md h1 {
-            @apply text-3xl
+            @apply text-2xl
         }
     }
 

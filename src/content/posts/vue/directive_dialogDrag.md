@@ -1,6 +1,6 @@
 ---
 title: 指令：DOM拖拽
-published: 2024-05-27
+published: 2024-01-27
 description: dom拖拽指令，拖拽操作区及拖拽状态可配置
 image: ''
 tags: [vue]

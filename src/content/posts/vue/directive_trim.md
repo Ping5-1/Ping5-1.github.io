@@ -1,6 +1,6 @@
 ---
 title: 指令：移除输入框中的空格
-published: 2024-04-13
+published: 2024-01-13
 description: '包括首尾空格和内部空格禁用'
 image: ''
 tags: [vue]
