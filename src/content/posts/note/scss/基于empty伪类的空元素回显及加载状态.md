@@ -1,5 +1,5 @@
 ---
-title: 基于mpty伪类的空元素回显及加载状态
+title: 基于empty伪类的空元素回显及加载状态
 published: 2024-04-05
 description: ':empty伪类、::before伪元素、svg插图处理空内容样式，属性选择器处理加载状态'
 image: ''

@@ -1,6 +1,6 @@
 ---
 title: 表格形表单
-published: 2024-05-27
+published: 2023-05-27
 description: 表格，每行为单个表单的表格。可配置：表格列、空文本、全部只读、斑马条纹、是否显示操作列
 image: ''
 tags: [vue]

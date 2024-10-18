@@ -14,7 +14,7 @@ This article is currently in a draft state and is not published. Therefore, it w
 When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
 当文章准备发布时，您可以在Frontmatter中将“草稿”字段更新为“false”：
 
-```markdownservice
+```markdown
 ---
 title: Draft Example
 published: 2024-01-11T04:40:26.381Z
